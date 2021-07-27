@@ -16,7 +16,7 @@ The output contains these two, where the first column is the former and the seco
 
 ## Task 2: Solving a Maze 
 
-- `$ python3 visualize.py gridfile` to visualize the maze
+- `$ python3 visualize.py gridfile` to visualize the maze (a few example gridfiles given in `data/maze/`)
 - `$ python3 encoder.py --grid gridfile > mdpfile` to encode the maze as an MDP into `mdpfile`
 - `$ python3 planner.py --mdp mdpfile --algorithm ALGORITHM > vpfile` to solve the maze's MDP 
 - `$ python3 decoder.py --grid gridfile --value_policy vpfile > pathfile` to simulate the optimal policy and output a shortest path from start to end
