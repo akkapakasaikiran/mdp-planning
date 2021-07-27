@@ -11,7 +11,8 @@ Where
 - `ALGORITHM` is one of `vi`, `hpi`, or `lp`
 
 The program computes the optimal value function and an optimal policy using the algorithm specified. 
-The output contains these two, where the first column is the former and the second the latter.
+The output contains these two, where the first column is the former and the second the latter. 
+`vi`, `hpi`, and `lp` refer to Value Iteration, Howard's Policy Iteration, and Linear Programming respectively.
 
 ## Task 2: Solving a Maze 
 
