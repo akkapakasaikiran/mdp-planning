@@ -20,7 +20,9 @@ The output contains these two, where the first column is the former and the seco
 - `$ python3 planner.py --mdp mdpfile --algorithm ALGORITHM > vpfile` to solve the maze's MDP 
 - `$ python3 decoder.py --grid gridfile --value_policy vpfile > pathfile` to simulate the optimal policy and output a shortest path from start to end
 - `$ python3 visualize.py gridfile pathfile` to visualize the solution path
+<p align="middle">
+  <img src="figs/maze.png" width="40%"> <img src="figs/maze_solved.png" width="40%">
+</p>
 
-![maze](figs/maze.png) ![maze solved](figs/maze_solved.png) 
 
 This project was done for a course assignment of IITB's [CS 747](https://www.cse.iitb.ac.in/~shivaram/teaching/old/cs747-a2020/index.html): Foundations of Intelligent and Learning Agents. The assignment's problem statement can be found [here](https://www.cse.iitb.ac.in/~shivaram/teaching/old/cs747-a2020/pa-2/programming-assignment-2.html). 
